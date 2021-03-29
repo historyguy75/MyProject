@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Recept OST OCH SKINKSÅS</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  type="text/css" />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+	<body>
+	  <div id="container">	
+		<header>
+			<h1>Hur man lagar ost och skinksås</h1>
+			<img src="https://i.imgur.com/YDbxyev.jpg" alt="Pasta med ost- och skinksås">
+			<p>Ost och skinksås på en kvart. Detta är ett lättlagat och billigt recept - riktigt gott till nykokt pasta - speciellt färsk pasta!</p>
+
+		</header>
+
+		<section onmouseover="IngredienserHover()" onmouseout="IngredienserNormal()">
+			<h2>
+			  Ingredienser  
+			  <i id="Ingredienser" class="fa fa-cutlery" aria-hidden="true"></i>
+			  </h2>
+			<ul>
+				<li>2 msk mjöl</li>
+				<li>5 dl mjölk</li>
+				<li>1 msk smör</li>
+				<li>3 dl ost, riven</li>
+				<li>0,5 tsk svartpeppar</li>
+				<li>1 tsk oregano</li>
+				<li>200 gram rökt skinka, eller kassler</li>
+			</ul>
+		</section>		
+		<section onmouseover="TillagningHover()" onmouseout="TillagningNormal()">  
+			<h2>
+			  Tillagning  
+			  <i id="Tillagning" class="fa fa-check-circle-o" aria-hidden="true"></i>
+			  </h2>
+			<ol>
+			    <li>Vispa ut mjölet i lite av mjölken direkt i en gryta. Häll på resten av mjölken. Koka upp under omrörning. Koka på svag värme ca 3 min.</li>
+			    <li>Tillsätt smör, riven ost och smaksätt med peppar och oregano.</li>
+			    <li>Skär skinkan i små tärningar och blanda ner dem i såsen.</li>
+			    <li>Servera med pasta och en sallad.</li>
+			</ol>
+		</section>		
+		<footer>
+			<p>Copyright Me 2020</p>
+		</footer>
+		</div>
+		<script>
+
+		function IngredienserHover(){
+		  document.getElementById("Ingredienser").style.fontSize = "300%";	
+		}	
+
+		function IngredienserNormal(){
+		  document.getElementById("Ingredienser").style.fontSize = "100%";
+		}
+
+		function TillagningHover(){
+		  document.getElementById("Tillagning").style.fontSize = "300%";	
+		}	
+
+		function TillagningNormal(){
+		  document.getElementById("Tillagning").style.fontSize = "100%";
+		}
+
+		</script>
+	</body>
+</html>
